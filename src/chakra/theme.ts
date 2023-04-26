@@ -8,18 +8,18 @@ export const theme = extendTheme({
     brand: {
       100: "#ff3c00",
     },
-    fonts: {
-        body: "Open Sans, sans-serif",
-    },
-    styles: {
-        global: () => ({
-            body: {
-                bg: "gray.200",
-            },
-        }),
-    },
+  },
+  fonts: {
+    body: "Open Sans, sans-serif",
+  },
+  styles: {
+    global: () => ({
+        body: {
+            bg: "gray.200",
+        },
+    }),
   },
   components: {
-    // Buttons
-  },
-})
+    // Button
+  }
+});
